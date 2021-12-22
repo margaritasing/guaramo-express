@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;900&display=swap');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+/* Header */ 
+
+#titleAccount{
+    background-color: #5b4dd4;
+    color: white;
+    padding-top: 100px; padding-bottom: 100px;
+    text-align: center;
+}
+
+/* Nav Bar */
+
+.navbar-expand-lg{
+    padding-top: 0%;
+}
+
+/* Grid Info */
+
+.container{
+    border-color: #1b29a3;
+    border-style: solid;
+    margin-right: 0%;
+}
+
+#textLeft{
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 80px;
+}
+
+#leftContainer{
+    margin-right: 100px;
+    padding-right: 150px;
+}
+
+#tableMinors{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.row{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.col-4{
+    margin: 0px;
+}
+
+.col-8{
+    padding-top: 10px;
+    padding-right: 80px;
+
+}
+
+.col{
+    padding-top: 30px;
+
+    
+}
+
+/* FAQ section */ 
+
+#titleFAQ{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.subtitleFAQ{
+    color: #5b4dd4;
+}
+
+
+/* Help button section*/ 
+#minorHelpSection{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+#buttonHelp{
+    background-color: #5b4dd4;
+    border-color: #5b4dd4;
+    box-shadow: #5b4dd4;
+}
+
+/* Images */
+
+.imagesMinors{
+    height: 200px;
+    width: 350px;
+}

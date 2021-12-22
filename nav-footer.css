@@ -1,0 +1,82 @@
+/* Tipo de letra de Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;900&display=swap');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.sombras-img{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  23px -23px 19px #868484,
+                -23px 23px 19px #ffffff;
+}
+
+
+/* navbar start */
+
+.container-fluid a {
+    margin: 10px;
+    color: #5b4dd4;
+}
+
+.navbar .icons a,
+.navbar .icons div {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #5b4dd4;
+}
+
+.navbar .icons a:hover,
+.navbar .icons div:hover {
+    color: #000;
+}
+
+.navbar .btn {
+    background-color: #5b4dd4;
+    color: #fff;
+}
+
+.navbar {
+    margin-left: 65px;
+    font-weight: 900;
+}
+
+.navbar:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+/* navbar end */
+
+
+/* Footer Start */
+
+.redes-sociales a {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+
+/*Footer End  */

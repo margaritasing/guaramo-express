@@ -1,0 +1,380 @@
+/* Tipo de letra de Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;900&display=swap');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+/* navbar start */
+
+.container-fluid a {
+    margin: 10px;
+    color: #5b4dd4;
+}
+
+.navbar .btn {
+    color: #fff;
+}
+
+.navbar {
+    margin-left: 0;
+    font-weight: 900;
+}
+
+.navbar:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+/* navbar end */
+
+
+/* header home page start */
+
+h2 {
+    font-size: 25px;
+    color: rgb(47, 51, 43);
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(47, 51, 43);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+/* header home page end */
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Firts start */
+.firts .card {
+    box-shadow: 2px 2px 7px rgb(218, 211, 211);
+}
+/* Firts end */
+
+
+/* second start */
+
+.secund .card {
+    box-shadow: 2px 2px 7px rgb(218, 211, 211);
+}
+
+/* second end */
+
+
+
+
+/* four part start */
+
+.img-rayo {
+    margin-top: 50px;
+    color: darkblue;
+    font-size: 60px;
+}
+
+.img-rayo {
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkblue;
+    border-image: initial;
+    border-radius: 25%;
+    padding: 3% 4% 3% 4%;
+}
+
+
+/* four part end */
+
+
+/* five part start */
+
+.five {
+    box-shadow: 2px 2px 5px #999;
+}
+
+.five i {
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.five h2 {
+    font-size: 25px;
+}
+
+.five p {
+    font-size: 15px;
+}
+
+.five .unico-h2 {
+    font-size: 35px;
+}
+
+.five .unico-p {
+    font-size: 25px;
+    color: rgb(207, 199, 199);
+}
+
+.img-verde {
+    color: darkgreen;
+}
+
+.img-celeste {
+    color: deepskyblue;
+}
+
+.img-ama {
+    color: goldenrod;
+}
+
+
+/* five part end */
+
+
+/* six part start */
+
+.six i {
+    font-size: 40px;
+    margin-left: 550px;
+    margin-top: 90px;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.six i {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(230, 109, 109);
+    border-image: initial;
+    border-radius: 50%;
+    padding: 2% 3% 2% 3%;
+}
+
+.six i {
+    color: palevioletred;
+}
+
+
+/* six part end */
+
+
+/* seven part start */
+
+.cero {
+    font-size: 200px;
+    font-weight: 900;
+    color: darkorchid;
+}
+
+.seven h1 {
+    font-size: 70px;
+}
+
+.seven p {
+    font-size: 50px;
+}
+
+.seven .cero {
+    font-size: 150px;
+}
+
+
+/* seven part end */
+
+
+/* eight part start */
+
+.eight {
+    position: relative;
+}
+
+.eight img {
+    width: 85%;
+    margin-left: 25px;
+}
+
+.eight h1 {
+    position: absolute;
+    top: 180px;
+    font-size: 30px;
+    margin-left: 430px;
+    color: #fff;
+}
+
+.eight p {
+    position: absolute;
+    top: 250px;
+    margin-left: 470px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.eight .imagen-corta {
+    display: flex;
+    position: absolute;
+    top: 350px;
+    margin-left: 430px;
+    width: 250px;
+}
+
+
+/* eight part end */
+
+
+/* nosotras start */
+
+.tarjeta {
+    margin-left: 130px;
+}
+
+.nosotras h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/* nosotras end */
+
+
+/* Footer Start */
+
+.redes-sociales a {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+
+/*Footer End  */
+
+
+/*seguridad*/
+#carrusel{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: rgb(84, 0, 87) 15px,
+                rgba(0, 0, 0, .1) 10px;
+    position: relative;
+
+}
+
+.d-block{
+    display: block !important;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    
+}
+
+#firts{
+   align-content: center;
+    margin: 100px;
+    justify-content: center; 
+}
+
+#secund{
+    align-content: center;
+    margin: 100px;
+    justify-content: center;
+}
+
+.codigos{
+    display:-ms-inline-flexbox;
+    justify-content: center;
+    margin-left: 180px;
+    }
+
+.acordeon{
+    align-content: center;
+    margin: 260px;
+    margin-top: 60px;
+}
+.card-text{
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 5px;
+    line-height: 15px;
+
+}
+
+/* nuevo carrusel
+
+.container-slider {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: rgb(84, 0, 87) 15px,
+                rgba(0, 0, 0, .1) 10px;
+    position: relative;
+
+}
+.slider{
+    display: flex;
+    width: 300%;          /*este porcentaje varia por la cantiidad de imagenes, cada imageb es un 100% 
+    height: 400px;         /*l altura que ocupara el slider y la imagen dentro del slider*
+    margin-left: -100%;
+
+
+.slider__section{
+    width: 100%;
+}
+
+.slider__img{
+    display: block !important;
+    width: 90%;
+    height: 70%;
+    object-fit: cover;         (*para cubrir todo el contenido*)
+
+}
+.slider__btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(144, 145, 253, 0.7);
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+
+}
+.slider__btn:hover {
+    background: white;
+}
+.slider__btn--left{
+    left: 10px;
+}
+.slider__btn--right{
+    right: 10px;
+}

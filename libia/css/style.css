@@ -1,0 +1,519 @@
+/* Tipo de letra de Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;900&display=swap');
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+section {
+    margin-top: 100px;
+}
+
+.sombras-img{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  23px -23px 19px #868484,
+                -23px 23px 19px #ffffff;
+}
+
+
+/* navbar start */
+
+.container-fluid a {
+    margin: 10px;
+    color: #5b4dd4;
+}
+
+.navbar .icons a,
+.navbar .icons div {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #5b4dd4;
+}
+
+.navbar .icons a:hover,
+.navbar .icons div:hover {
+    color: #000;
+}
+
+.navbar .btn {
+    background-color: #5b4dd4;
+    color: #fff;
+}
+
+.navbar {
+    margin-left: 65px;
+    font-weight: 900;
+}
+
+.navbar:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+
+/* navbar end */
+
+
+/* header home page start */
+
+
+
+.header h2 {
+    font-size: 25px;
+    color: rgb(47, 51, 43);
+}
+
+.header h3 {
+    font-size: 24px;
+    color: rgb(47, 51, 43);
+}
+
+.header h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.enca-letras{
+    margin-top: 100px;
+}
+
+
+
+
+/* header home page end */
+
+
+/* Firts start */
+
+.card {
+    border: 0;
+    box-shadow: none;
+}
+
+.firts i {
+    font-size: 55px;
+    margin-left: 100px;
+}
+
+.firts .card {
+    box-shadow: 2px 2px 7px rgb(218, 211, 211);
+}
+
+.img-ic1 {
+    color: rgb(252, 96, 96);
+}
+
+.img-ic2 {
+    color: rgb(112, 112, 211);
+}
+
+.img-ic3 {
+    color: rgb(69, 241, 184);
+}
+
+
+/* Firts end */
+
+
+/* second start */
+
+.second i {
+    font-size: 50px;
+    margin: 25px;
+}
+
+.second .mar-iz{
+    margin-right: 40px;
+}
+
+
+
+.second img {
+    height: 100%;
+}
+.second .tit{
+    font-size: 35px;
+}
+
+.second .img-sec1 {
+    color: rgb(185, 31, 31);
+}
+
+.second .img-sec2 {
+    color: rgb(163, 209, 77);
+}
+
+.second .img-sec3 {
+    color: rgb(112, 112, 211);
+}
+
+.second .img-sec4 {
+    color: rgb(69, 241, 184);
+}
+
+
+/* second end */
+
+
+/* third part start */
+
+.third {
+    background-color: #F0ECE3;
+    border-radius: 15%;
+}
+
+.third p {
+    font-size: 15px;
+}
+
+.third .img-cop {
+    margin-left: 75px;
+}
+
+.third h2 {
+    font-size: 30px;
+}
+
+.third h3 {
+    color: rgb(207, 199, 199);
+}
+
+.lineas-one {
+    margin-bottom: 95px;
+}
+
+
+/* third part end */
+
+
+/* four part start */
+
+.img-rayo {
+    margin-top: 50px;
+    color: darkblue;
+    font-size: 60px;
+}
+
+.img-rayo {
+    border-width: 5px;
+    border-style: solid;
+    border-color: darkblue;
+    border-image: initial;
+    border-radius: 25%;
+    padding: 3% 4% 3% 4%;
+}
+
+.four .p-d{
+    color: #868484;
+}
+
+.color-dif{
+    font-size: 35px;
+    color: #5b4dd4;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+
+
+/* four part end */
+
+
+/* five part start */
+
+.five {
+    
+    border-radius: 10%;
+}
+
+
+.five i {
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.five h2 {
+    font-size: 25px;
+}
+
+.five p {
+    font-size: 15px;
+}
+
+.five .unico-h2 {
+    font-size: 35px;
+}
+
+.five .unico-p {
+    font-size: 25px;
+    color: rgb(145, 135, 135);
+}
+
+.img-verde {
+    color: darkgreen;
+}
+
+.img-celeste {
+    color: deepskyblue;
+}
+
+.img-ama {
+    color: goldenrod;
+}
+
+
+/* five part end */
+
+
+/* six part start */
+
+.six i {
+    font-size: 40px;
+    margin-left: 550px;
+    margin-top: 90px;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.six i {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(230, 109, 109);
+    border-image: initial;
+    border-radius: 50%;
+    padding: 2% 3% 2% 3%;
+}
+
+.six i {
+    color: palevioletred;
+}
+
+
+/* six part end */
+
+
+/* seven part start */
+
+.cero {
+    font-size: 200px;
+    font-weight: 900;
+    color: darkorchid;
+    letter-spacing: 0;
+}
+
+.seven .cero-uno{
+    letter-spacing: 0;
+    font-size: 800;
+}
+
+.seven h1 {
+    font-size: 70px;
+}
+
+.seven p {
+    font-size: 50px;
+}
+
+.seven .cero {
+    font-size: 150px;
+}
+
+
+/* seven part end */
+
+
+/* eight part start */
+
+.eight {
+    position: relative;
+}
+
+.eight img {
+    width: 85%;
+    margin-left: 25px;
+}
+
+.eight h1 {
+    position: absolute;
+    top: 180px;
+    font-size: 30px;
+    margin-left: 430px;
+    color: #fff;
+}
+
+.eight p {
+    position: absolute;
+    top: 250px;
+    margin-left: 470px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.eight .imagen-corta {
+    display: flex;
+    position: absolute;
+    top: 350px;
+    margin-left: 430px;
+    width: 250px;
+}
+
+
+/* eight part end */
+
+
+/* nosotras start */
+
+.tarjeta {
+    margin-left: 130px;
+}
+
+.nosotras{
+    padding-left: 200px;
+}
+
+.nosotras h5{
+    padding-left: 10px;
+}
+
+.nosotras h2 {
+    
+    font-size: 25px;
+}
+
+.nosotras img{
+    width: 200px;
+    border-radius: 25%;
+}
+
+
+/* nosotras end */
+
+
+/* Footer Start */
+
+.redes-sociales a {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+
+/*Footer End  */
+
+
+/*animaciones*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+/*the animation definition*/
+
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: none;
+    transform: none
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+
+@keyframes wobble {
+  0% {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    -ms-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg)
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    -ms-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg)
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    -ms-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg)
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    -ms-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg)
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    -ms-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg)
+  }
+  100% {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+  }
+}
+
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble
+}
+
+
+
+
